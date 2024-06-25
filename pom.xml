@@ -17,13 +17,15 @@
 		<java.version>17</java.version>
 	</properties>
 
-		<dependencyManagement>
+    <dependencyManagement>
+        <dependencies>
 		<dependency>
     			<groupId>commons-collections</groupId>
     			<artifactId>commons-collections</artifactId>
     			<version>3.2.2</version>
 		</dependency>
-	</dependencyManagement>
+        </dependencies>
+    </dependencyManagement>
 	
 		<dependencies>
 <!-- 		<dependency>
