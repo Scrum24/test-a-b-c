@@ -17,6 +17,14 @@
 		<java.version>17</java.version>
 	</properties>
 
+		<dependencyManagement>
+		<dependency>
+    			<groupId>commons-collections</groupId>
+    			<artifactId>commons-collections</artifactId>
+    			<version>3.2.2</version>
+		</dependency>
+	</dependencyManagement>
+	
 		<dependencies>
 <!-- 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -57,13 +65,7 @@
 
 	</dependencies>
 
-	<dependencyManagement>
-		<dependency>
-    			<groupId>commons-collections</groupId>
-    			<artifactId>commons-collections</artifactId>
-    			<version>3.2.2</version>
-		</dependency>
-	</dependencyManagement>
+
 
 
 	<build>
